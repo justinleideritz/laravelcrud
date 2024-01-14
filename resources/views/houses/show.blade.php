@@ -12,7 +12,7 @@
     <h1>Details</h1>
     <br>
     <ul class="list-group">
-        <li class="list-group-item"><h3>{{$house->titel}}</h3></li>
+        <li class="list-group-item"><strong>Titel:</strong> {{$house->titel}}</li>
         <li class="list-group-item"><strong>ID:</strong> {{$house->id}}</li>
         <li class="list-group-item"><strong>Oppervlakte:</strong> {{$house->oppervlakte}} m2</li>
         <li class="list-group-item"><strong>Prijs:</strong> € {{$house->prijs}}</li>
